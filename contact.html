@@ -3,46 +3,141 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="icon.png" />
     <title>Rediate B</title>
   </head>
   <body>
     <hr />
     <a href="index.html">Home</a>
     <a href="contact.html">Contact</a>
+    <a href="Gallery.html">Gallery</a>
     <hr />
     <table cellspacing="10">
       <tr>
-        <td><img src="./images/s.jpg" alt="Rediate B Profile Image" /></td>
+        <td><img src="./images/icons.jpg" alt="Rediate B Profile Image" /></td>
         <td>
           <h1>Rediate B</h1>
-          <h3>student,AAiT</h3>
-          <p>my name is Rediate Befekadu.I am a web developer.</p>
+          <h3>Student,AAiT</h3>
+          <p>My name is Rediate Befekadu.I am a web developer.</p>
         </td>
       </tr>
     </table>
 
     <h3>Contact us...</h3>
     <hr />
-    <form>
-      <label for="name">First Name</label>
-      <input type="text" name="fName" id="fName" required /><br />
-      <label for="name">Last Name:</label>
-      <input type="text" name="lName" id="fName" required /><br />
-      <label for="email">Email:</label>
-      <input type="email" name="email" id="email" required /><br />
-      <br />
-      country:
-      <select name="country" id="">
-        <option value="af">Africa</option>
-        <option value="am">America</option>
-        <option value="as">Asia</option>
-      </select>
-      <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
-      <br />
-      <input type="submit" value="Submit" />
-    </form>
+    <table>
+      <tr>
+        <form>
+          <td>
+            <label for="name">First Name</label>
+        </td>
+        <td>
+          <input
+          type="text"
+          name="fName"
+          id="fName"
+          required
+          
+          pattern="[A-Za-z]+"
+          
+        />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="name">Last Name:</label>
+        </td>
+        <td>
+          <input
+          type="text"
+          name="lName"
+          id="fName"
+          required
+          pattern="[A-Za-z]+"
+         
+        />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="tel">Phone number</label> </td>
+         <td><input name="tel1" type="tel" pattern="[0-9]{3}" placeholder="###" aria-label="3-digit area code" size="2"/>)-
+          <input name="tel2" type="tel" pattern="[0-9]{3}" placeholder="###" aria-label="3-digit prefix" size="2"/> - 
+          <input name="tel3" type="tel" pattern="[0-9]{4}" placeholder="####" aria-label="4-digit number" size="3"/>
+        </label>
+         </td>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="email">Email:</label>
+        </td>
+        <td>
+          <input type="email" name="email" id="email" required />
+        </td>
+      </tr>
+      <td>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.24827351988!2d38.76101191369907!3d9.041102791291323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b8f65d6e2d22b%3A0x14a0399059cbb2eb!2sAAIT%20Library!5e0!3m2!1sen!2set!4v1583751500563!5m2!1sen!2set"
+       width="300" 
+       height="300" 
+       frameborder="0" 
+       style="border:0;"
+        allowfullscreen=""></iframe> </td>
+      <tr>
+        <td>
+          <label for="price">Rate the page </label>
+        </td>
+        <td>
+          <input
+              type="range"
+              name="price"
+              id="price"
+              min="0"
+              max="100"
+              step="10"
+              value="100"
+            />
+            <output class="price-output" for="price"></output>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          country:
+        </td>
+        <td>
+          <select name="country" id="">
+            <option value="af">Africa</option>
+            <option value="am">America</option>
+            <option value="as">Asia</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Feedback!
+        </td>
+        <td>
+          <textarea
+              name="comment"
+              id="comment"
+              cols="30"
+              rows="10"
+            ></textarea>
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>
+          <input type="submit" value="Submit" />
+        </td>
+      </tr>
+        </form>
+  </table>
+
     <hr />
-    <p>Developed by Rediate B. &copy;/p></p>
+    <p align="center">
+      Developed by Rediate B. &copy;
+    </p>
     <hr />
   </body>
 </html>
