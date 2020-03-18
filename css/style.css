@@ -50,3 +50,18 @@ img{
 #clear{
     clear: left;
 }
+#star{
+  border-left:8px ;
+border-radius:4px;
+padding-left:15px;
+}
+#stars{
+  border-left:8px ;
+border-radius:4px;
+padding-left:15px;
+}
+.form>div{
+  border-left:8px ;
+border-radius:4px;
+padding-left:15px;
+}
