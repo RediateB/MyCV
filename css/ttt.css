@@ -1,0 +1,29 @@
+body{
+    margin-left: 35%;
+}
+section{
+    width: 480px;
+    height: 480px;
+}
+div{
+    float: left;
+    width: 150px;
+    height: 150px;
+    
+}
+.left-side{
+    border-right: solid;
+    border-bottom: solid;
+    
+}
+.right-side{
+    border-left: solid;
+    border-bottom: solid;
+}
+.middle-side{
+    border-bottom: solid;
+}
+.middle-side3{
+    border-left: solid;
+    border-right: solid;
+}

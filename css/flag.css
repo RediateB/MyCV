@@ -1,0 +1,505 @@
+body{
+    background-color:#bac6d9;
+}
+p{
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+section{
+    padding: 5%;
+    float: left;
+}
+section>section{
+    height: 220px;
+    width: 520px;
+}
+.flags{
+    float: left;
+}
+.france>div{
+    float: left;
+}
+.france>.blue{
+    background-color: blue;
+    width: 167px;
+    height: 200px;
+}
+.france>.white{
+    background-color: white;
+    width: 167px;
+    height: 200px;
+}
+.france>.red{
+    background-color: red;
+    width: 167px;
+    height: 200px;
+}
+
+.indonesia>.red{
+    background-color: red;
+    width: 500px;
+    height: 100px;
+}
+.indonesia>.white{
+    background-color: white;
+    width: 500px;
+    height: 100px;
+}
+
+.nigeria>.green{
+    background-color: green;
+    width: 500px;
+    height: 200px;
+}
+.nigeria>.white{
+    position: relative;
+    top: -200px;
+    left: 167px;
+    background-color: white;
+    width: 167px;
+    height: 200px;
+}
+
+.palau>.blue{
+    background-color:rgb(11, 166, 228);
+    width: 500px;
+    height: 200px;
+}
+.palau>.yellow{
+    position: relative;
+    top: -150px;
+    left: 200px;
+    background-color: yellow;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+}
+
+.peru>.red{
+    background-color: red;
+    width: 500px;
+    height: 200px;
+}
+.peru>.white{
+    position: relative;
+    top: -200px;
+    left: 167px;
+    background-color: white;
+    width: 167px;
+    height: 200px;
+}
+
+.poland>.white{
+    background-color: white;
+    width: 500px;
+    height: 100px;
+}
+.poland>.red{
+    background-color: red;
+    width: 500px;
+    height: 100px;
+}
+
+.romania>div{
+    float: left;
+}
+.romania>.blue{
+    background-color: blue;
+    width: 167px;
+    height: 200px;
+}
+.romania>.yellow{
+    background-color: yellow;
+    width: 167px;
+    height: 200px;
+}
+.romania>.red{
+    background-color: red;
+    width: 167px;
+    height: 200px;
+}
+
+.russia>.white{
+    background-color: white;
+    width: 500px;
+    height: 67px;
+}
+.russia>.blue{
+    background-color: blue;
+    width: 500px;
+    height: 67px;
+}
+.russia>.red{
+    background-color: red;
+    width: 500px;
+    height: 67px;
+}
+
+.sierra-leone>.green{
+    background-color: green;
+    width: 500px;
+    height: 67px;
+}
+.sierra-leone>.white{
+    background-color: white;
+    width: 500px;
+    height: 67px;
+}
+.sierra-leone>.blue{
+    background-color: rgb(10, 171, 235);
+    width: 500px;
+    height: 67px;
+}
+
+.sweden>.blue{
+    background-color: rgb(10, 171, 235);
+    width: 500px;
+    height: 200px;
+}
+.sweden>.yellow-hor{
+    position: relative;
+    top: -125px;
+    background-color: yellow;
+    width: 500px;
+    height: 50px;
+}
+.sweden>.yellow-ver{
+    position: relative;
+    top: -250px;
+    left: 175px;
+    background-color: yellow;
+    width: 50px;
+    height: 200px;
+}
+
+.england>.white{
+    background-color: white;
+    width: 500px;
+    height: 200px;
+}
+.england>.red-hor{
+    position: relative;
+    top: -125px;
+    background-color: red;
+    width: 500px;
+    height: 50px;
+}
+.england>.red-ver{
+    position: relative;
+    top: -250px;
+    left: 225px;
+    background-color: red;
+    width: 50px;
+    height: 200px;
+}
+.ireland>div{
+    float: left;
+}
+.ireland>.green{
+    background-color: green;
+    width: 167px;
+    height: 200px;
+}
+.ireland>.white{
+    background-color: white;
+    width: 167px;
+    height: 200px;
+}
+.ireland>.orange{
+    background-color: orange;
+    width: 167px;
+    height: 200px;
+}
+.italy>div{
+    float: left;
+}
+.italy>.green{
+    background-color: green;
+    width: 167px;
+    height: 200px;
+}
+.italy>.white{
+    background-color: white;
+    width: 167px;
+    height: 200px;
+}
+.italy>.red{
+    background-color: red;
+    width: 167px;
+    height: 200px;
+}
+
+.yemen>.red{
+    background-color: red;
+    width: 500px;
+    height: 67px;
+}
+.yemen>.white{
+    background-color: white;
+    width: 500px;
+    height: 67px;
+}
+.yemen>.black{
+    background-color: black;
+    width: 500px;
+    height: 67px;
+}
+
+.norway{
+    height: 200px;
+}
+.norway>.red{
+    background-color: red;
+    width: 500px;
+    height: 200px;
+}
+.norway>.blue-hor{
+    position: relative;
+    top: -110px;
+    background-color: blue;
+    width: 500px;
+    height: 30px;
+    border-bottom: 3px white solid;
+    border-top: 3px white solid;
+}
+.norway>.blue-ver{
+    position: relative;
+    top: -236px;
+    left: 240px;
+    background-color: blue;
+    width: 30px;
+    height: 200px;
+    border-left: 3px white solid;
+    border-right: 3px white solid;
+}
+.norway>.red-box{
+    background-color: blue;
+    width: 36px;
+    height: 30px;
+    position: relative;
+    left: 240px;
+    top: -343px;
+}
+
+.japan>.white{
+    background-color: white;
+    width: 500px;
+    height: 200px;
+}
+.japan>.red{
+    position: relative;
+    top: -150px;
+    left: 200px;
+    background-color: red;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+}
+
+.gambia>.red{
+    background-color: red;
+    width: 500px;
+    height: 67px;
+}
+.gambia>.blue{
+    background-color: blue;
+    width: 500px;
+    height: 67px;
+}
+.gambia>.green{
+    background-color: green;
+    width: 500px;
+    height: 67px;
+}
+
+.germany>.black{
+    background-color: black;
+    width: 500px;
+    height: 67px;
+}
+.germany>.red{
+    background-color: red;
+    width: 500px;
+    height: 67px;
+}
+.germany>.yellow{
+    background-color: yellow;
+    width: 500px;
+    height: 67px;
+}
+
+.sudan>.red{
+    background-color: red;
+    width: 500px;
+    height: 67px;
+}
+.sudan>.white{
+    background-color: white;
+    width: 500px;
+    height: 67px;
+}
+.sudan>.black{
+    background-color: black;
+    width: 500px;
+    height: 67px;
+}
+.sudan>.green{
+    position: relative;
+    top: -200px;
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+    border-left: 150px solid green;
+}
+.bahamas>.blue{
+    background-color: rgb(60, 145, 243);
+    width: 500px;
+    height: 200px;
+}
+.bahamas>.yellow{
+    position: relative;
+    top: -134px;
+    background-color: yellow;
+    width: 500px;
+    height: 67px;
+}
+.bahamas>.black{
+    position: relative;
+    top: -267px;
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+    border-left: 150px solid black;
+}
+
+.scotland>.blue{
+    background-color: rgb(39, 151, 243);
+    width: 500px;
+    height: 200px;
+}
+.scotland>.yellow-1>.yellow-1-1{
+    width: 522px;
+    height: 45px;
+    background: white;
+    transform: skew(17deg);
+    /* transform: rotate(-45deg); */
+}
+.scotland>.yellow-1{
+    position: relative;
+    top: -123px;
+    left: -11px;
+    transform: rotate(17deg);
+}
+.scotland>.yellow-2>.yellow-2-2{
+    width: 522px;
+    height: 45px;
+    background: white;
+    transform: skew(-17deg);
+    /* transform: rotate(-45deg); */
+}
+.scotland>.yellow-2{
+    position: relative;
+    top: -167px;
+    left: -11px;
+    transform: rotate(-17deg);
+}
+
+.jamaica>.yellow{
+    background-color: yellow;
+    width: 500px;
+    height: 200px;
+}
+.jamaica>.green-1{
+    position: relative;
+    top: -200px;
+    width: 0;
+    border-left: 250px solid transparent;
+    border-right: 250px solid transparent;
+    border-top: 80px solid green;
+}
+.jamaica>.green-2{
+    position: relative;
+    top: -160px;
+    left: 25px;
+    width: 0;
+    border-left: 225px solid transparent;
+    border-right: 225px solid transparent;
+    border-bottom: 80px solid green;
+}
+.jamaica>.black-1{
+    position: relative;
+    top: -335px;
+    width: 0;
+    border-top: 75px solid transparent;
+    border-bottom: 75px solid transparent;
+    border-left: 200px solid black;
+}
+.jamaica>.black-2{
+    position: relative;
+    top: -482px;
+    left: 300px;
+    width: 0;
+    border-top: 75px solid transparent;
+    border-bottom: 75px solid transparent;
+    border-right: 200px solid black;
+}
+
+.uae>.green{
+    background-color: green;
+    width: 500px;
+    height: 67px;
+}
+.uae>.white{
+    background-color: white;
+    width: 500px;
+    height: 67px;
+}
+.uae>.black{
+    background-color: black;
+    width: 500px;
+    height: 67px;
+}
+.uae>.red{
+    position: relative;
+    top: -200px;
+    background-color: red;
+    width: 167px;
+    height: 200px;
+}
+
+.greece>.blue{
+    background-color: blue;
+    width: 500px;
+    height: 200px;
+}
+.greece>.white-strip{
+    position: relative;
+    top: -200px;
+}
+.greece>.white-strip>.white{
+    background-color: white;
+    margin-top: 10px;
+    width: 500px;
+    height: 10px;
+}
+.greece>.blue-box{
+    position: relative;
+    top: -400px;
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}
+.greece>.blue-box>.white-hor{
+    position: relative;
+    top: 40%;
+    background-color: white;
+    width: 100%;
+    height: 20%;
+}
+.greece>.blue-box>.white-ver{
+    position: relative;
+    top: -20%;
+    left: 40%;
+    background-color: white;
+    width: 20%;
+    height: 100%;
+}
