@@ -41,3 +41,9 @@ nav>ul>li>a{
         width: 99%;
         background-color: rgba(125,125,125,0.7);
       }
+ @media  (
+          min-width:450px){
+       header{
+              font-size:1.5rem;
+          }
+        }

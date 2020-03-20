@@ -13,6 +13,7 @@ header {
   background-color: rgba(125,125,125,0.7);
 }
 #holder{
+  
   margin-top: 8%;
   margin-left: 10px;
 }
@@ -110,7 +111,7 @@ input[type=submit]{
   margin-left: 200px;
 }
 .form1{
-float:left;
+  float: left;
 }
 #sub{
   margin-left: 200;
@@ -121,9 +122,11 @@ float:left;
   margin-right: 500px;
 }
 .work>p{
+  display: flex;
   text-align: center;
 }
 #work>a{
+  display: flex;
   color: black;
   text-decoration: none;
   padding: 44px 45px;
