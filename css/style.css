@@ -123,3 +123,15 @@ float:left;
 .work>p{
   text-align: center;
 }
+#work>a{
+  color: black;
+  text-decoration: none;
+  padding: 44px 45px;
+  text-align: center;
+  font-family: fantasy;
+  
+  /* display: inline-block; */
+}
+#work>img{
+  border-radius: 8px;
+}
